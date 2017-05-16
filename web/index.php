@@ -135,7 +135,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <div class="footer-bottom">
     <div class="wrap">
         <div class="copy">
-            <p class="copy">&#169 2015 Demo by <a href="http://www.neurones.pro" target="_blank">www.neurones.pro</a>
+            <p class="copy">&#169 2017 Demo by <a href="http://www.neurones.pro" target="_blank">www.neurones.pro</a>
             </p>
         </div>
         <script type="text/javascript">
