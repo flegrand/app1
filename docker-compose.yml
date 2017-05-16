@@ -1,0 +1,12 @@
+version: '3.1'
+
+services:
+  jenkins:
+    image: registry.demo.cloudcontrolled.net/demo/app1:$TAG
+    ports:
+    - 80
+    deploy:
+      placement:
+        constraints: [node.labels.node-role == integ]
+    labels:
+      container-type: "app"
