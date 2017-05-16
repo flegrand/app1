@@ -121,7 +121,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <div class="wrap">
         <!---start-da-slider----->
         <div class="da-slide">
-            <h2><span>DevOps</span><br>&nbsp;&nbsp;&nbsp;&nbsp;& Docker & Softcom</h2>
+            <h2><span>DevOps</span><br>&nbsp;&nbsp;&nbsp;&nbsp;& Docker & Swissquote</h2>
             <p>
                 <span class="big-text">Hostname: <?php echo gethostname(); ?></span>
             </p>
