@@ -1,5 +1,5 @@
 def PROJECT='app1'
-def GIT_URL='http://jenkins@git.demo.cloudcontrolled.net:8800/demo/'+PROJECT+'.git'
+def GIT_URL='git@github.com:flegrand/'+PROJECT+'.git'
 def REGISTRY_URL='registry.demo.cloudcontrolled.net/demo/'+PROJECT
 
 node {
@@ -13,7 +13,7 @@ node {
                         dockerImg.push(env.BRANCH_NAME)
                 }
         }
-        
+
         stage "Deploy"
         sh('bash deploy.sh --project '+PROJECT+' --tag '+env.BRANCH_NAME+'-build'+env.BUILD_NUMBER)
 }
